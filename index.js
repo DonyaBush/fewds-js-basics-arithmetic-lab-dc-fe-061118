@@ -16,4 +16,5 @@ You should NOT try to redefine any of the above variables.
 //console.log(currentAge)
 var age = 'currentAge';
 
-var ageIsValid ='currentAge'
+function currentAge() {
+  var res = 'ageIsValid'
