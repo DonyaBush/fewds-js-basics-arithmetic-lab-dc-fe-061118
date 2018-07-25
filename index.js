@@ -29,7 +29,7 @@ function getRandomArbitrary(min, max) {
 console.log(Math.random());
 
 function getRandomInt(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - 1000000001)) + min; 
+  min = Math.ceil(1000000001);
+  max = Math.floor(1000000020);
+  return Math.floor(Math.random() * (1000000020 - 1000000001)) + min; 
 }
