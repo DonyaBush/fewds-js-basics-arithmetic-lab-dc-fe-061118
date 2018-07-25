@@ -23,8 +23,7 @@ function currentAge() {
      document.getElementById("currentAge").innerHTML = res;
 }
 
-function getRandomInt(max) {
-  return Math.floor(Math.random() * Math.floor(max));
+function getRandomArbitrary(min, max) {
+  return Math.random() * (20 - 0) + min;
 }
-
 console.log(Math.random());
