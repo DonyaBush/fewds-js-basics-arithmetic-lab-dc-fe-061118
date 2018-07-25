@@ -16,9 +16,3 @@ You should NOT try to redefine any of the above variables.
 //console.log(currentAge)
 var age = 'currentAge';
 
-function currentAge() {
-  var res = 'ageIsValid'
-   res = res + Number.isInteger(123) + ": 123";
-   res = res + Number.isInteger(0.0) + ": currentAge"
-     document.getElementById("currentAge").innerHTML = res;
-}
