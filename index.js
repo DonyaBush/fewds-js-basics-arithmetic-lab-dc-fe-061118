@@ -16,14 +16,4 @@ You should NOT try to redefine any of the above variables.
 //console.log(currentAge)
 var age = 'currentAge';
 
-{
-  "name": "JavaScript",
-  "createdBy": {
-    "firstName": "Brendan",
-    "lastName": "Eich"
-  },
-  "firstReleased": 1995,
-  "isAwesome": true
-}
- 
-typeof {}
+var ageIsValid ='currentAge'
