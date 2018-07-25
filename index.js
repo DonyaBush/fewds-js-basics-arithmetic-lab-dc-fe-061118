@@ -18,7 +18,6 @@ var age = 'currentAge';
 
 function currentAge() {
   var res = 'ageIsValid'
-   res = res + Number.isInteger(123) + ": 123";
-
+   
      document.getElementById("currentAge").innerHTML = res;
 }
